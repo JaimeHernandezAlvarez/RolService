@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.service.rol.model.Rol;
 import com.service.rol.service.RolService;
 
-@RestController("/api/v1/veterinarios")
+@RestController("/api/v1/roles")
 public class RolController {
     @Autowired
     private RolService rolService;
